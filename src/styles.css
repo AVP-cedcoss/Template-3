@@ -1,4 +1,4 @@
-@media screen and (min-width: 310px)
+@media screen and (min-width: 1px)
 {
     #header /*Header div*/
     {
@@ -74,10 +74,10 @@
     }
     .card /*individual card*/
     {
-        /* border: solid 1px blue; */
+        /* border: solid 1px green; */
         text-align: center;
         width: 25%;
-        float: left;
+        /* float: left; */
         margin-left: 6%;
         margin-right: 0%;
         margin-top: 2%;
@@ -88,6 +88,7 @@
         background-color: rgb(189, 189, 189);
         padding: 30% 10%;
         margin-bottom: 5%;
+        width:90%;
     }
     h5 /*card heading*/
     {
@@ -98,6 +99,7 @@
     {
         margin: 2% 0% 2% 0%;
         padding: 1%;
+        width: 90%;
         font-family: sans-serif;
         font-size: 15px;
     }
@@ -160,9 +162,27 @@
 }
 @media screen and (max-width: 511px)
 {
+    #content h3
+    {
+        width: 65%;
+    }
+    #content-left-float
+    {
+        width:75%;
+    }
     #main-bottom
     {
         display: block;
-        align-items: center;
+        margin: auto;
+    }
+    .card
+    {
+        width: 75%;
+    }
+    .card-bg
+    {
+        width: 35%;
+        padding: 20%;
+        margin: auto;
     }
 }
